@@ -9,7 +9,7 @@ const sequelize = new Sequelize("dewstats", "", "", {
 		min: 0,
 		idle: 10000
 	},
-	storage: "dewstats.db"
+	storage: __dirname + "/dewstats.db"
 });
 
 const Server = sequelize.define('Server', {
