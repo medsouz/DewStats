@@ -1,0 +1,17 @@
+{
+  "name": "dewstats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dewstats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "medsouz",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "requestify": "^0.2.5",
+    "sequelize": "^4.4.7",
+    "sqlite3": "^3.1.9"
+  }
+}
